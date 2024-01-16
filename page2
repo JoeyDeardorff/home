@@ -1,0 +1,51 @@
+<style>
+	body{
+        background-image: url("https://www.greenlawnfertilizing.com/hubfs/Imported_Blog_Media/lawn-540x540_jpg-Dec-06-2023-05-34-10-0199-PM.webp#keepProtocol");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+</style>
+<html>
+<body>
+
+    <h1 style="background-color:Violet;">Goodbye World.</h1>
+
+<p style="background-color:MediumSeaGreen;">
+Perfectly Normal, 100% Average Cats!
+</p>
+
+
+<table>
+<tr>
+<img src="https://pbs.twimg.com/profile_images/1277046434236256257/7p8Ekc4u_400x400.jpg">
+</tr>
+
+<th>
+<img src="https://pbs.twimg.com/profile_images/1277046434236256257/7p8Ekc4u_400x400.jpg">
+</th>
+
+<tr>
+<img src="https://pbs.twimg.com/profile_images/1277046434236256257/7p8Ekc4u_400x400.jpg">
+</tr>
+
+<th>
+<img src="https://pbs.twimg.com/profile_images/1277046434236256257/7p8Ekc4u_400x400.jpg">
+</th>
+
+<tr>
+<img src="https://pbs.twimg.com/profile_images/1277046434236256257/7p8Ekc4u_400x400.jpg">
+</tr>
+
+<th>
+<img src="https://pbs.twimg.com/profile_images/1277046434236256257/7p8Ekc4u_400x400.jpg">
+</th>
+
+</table>
+
+</body>
+</html>
+
+
