@@ -1,4 +1,4 @@
-<script role="script" id="twine-user-script" type="text/twine-javascript">var audio= document.createElement('audio');
+<script role="script" id="twine-user-script" type="text/twine-javascript">
 
 
 var videoId = getRandomInt(0, 9);
@@ -46,19 +46,7 @@ if (videoId = 0){
     elemVideo.play();
     }
 
-btn.addEventListener('click', function (e) {
-    var nextId = getRandomInt(0, 9);
 
-    if (nextId != videoId) {
-        playNext(nextId);
-    } else {
-        while (nextId == videoId) {
-            nextId = getRandomInt(0, 9);
-        }
-
-        playNext(nextId);
-    }
-});
 
 /* gets random whole number between 0 and 9 */
 function getRandomInt(min, max) {
@@ -67,10 +55,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function playNext(id) {
-    elemVideo.setAttribute('src', '/' + videos[id]);
-    elemVideo.play();
-}
+
 
 
 
