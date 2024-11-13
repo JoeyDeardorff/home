@@ -1,75 +1,76 @@
 <script>
-
-
-
-
 var btn = document.getElementById('playRandom');
 
 btn.addEventListener('click', function (e) {
     var videoId = getRandomInt(0, 9);
-)};
-
-
-
+)
+    };
 
 if (videoId = 0){
     elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
     elemVideo.play();
     }
-    if (videoId = 1){
+    
+else if (videoId = 1){
     elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
     elemVideo.play();
     }
-    if (videoId = 2){
+    
+else if (videoId = 2){
     elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
     elemVideo.play();
     }
-    if (videoId = 3){
+    
+else if (videoId = 3){
     elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
     elemVideo.play();
     }
-    if (videoId = 4){
+    
+else if (videoId = 4){
     elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
     elemVideo.play();
     }
-    if (videoId = 5){
+    
+else if (videoId = 5){
     elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
     elemVideo.play();
     }
-    if (videoId = 6){
+    
+else if (videoId = 6){
     elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
     elemVideo.play();
     }
-    if (videoId = 7){
+    
+else if (videoId = 7){
     elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
     elemVideo.play();
     }
-    if (videoId = 8){
+    
+else if (videoId = 8){
     elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
     elemVideo.play();
     }
-    if (videoId = 9){
+    
+else if (videoId = 9){
     elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
     elemVideo.play();
     }
-
 
 
 /* gets random whole number between 0 and 9 */
 
-    function getRandomInt(min, max) {
+function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
-
-
-
 </script>
 
 <div class="videoHolder">
     <video id="video" autoplay muted src="">
     </video>
 </div>
+
+/*shows button*/
+
 <button id='playRandom' type="button" name="button">Read my Fortune</button>
