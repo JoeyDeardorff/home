@@ -1,21 +1,50 @@
 <script role="script" id="twine-user-script" type="text/twine-javascript">var audio= document.createElement('audio');
-var videos = [
-    "mp4s/video1.mp4",
-    "mp4s/video2.mp4",
-    "mp4s/video3.mp4",
-    "mp4s/video4.mp4",
-    "mp4s/video5.mp4",
-    "mp4s/video6.mp4",
-    "mp4s/video7.mp4",
-    "mp4s/video8.mp4",
-    "mp4s/video9.mp4",
-    "mp4s/video10.mp4"
-];
+
 
 var videoId = getRandomInt(0, 9);
-var elemVideo = document.getElementById('video');
-elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4' + videos[videoId]);
+
 var btn = document.getElementById('playRandom');
+
+if (videoId = 0){
+    elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
+    elemVideo.play();
+    }
+    if (videoId = 1){
+    elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
+    elemVideo.play();
+    }
+    if (videoId = 2){
+    elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
+    elemVideo.play();
+    }
+    if (videoId = 3){
+    elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
+    elemVideo.play();
+    }
+    if (videoId = 4){
+    elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
+    elemVideo.play();
+    }
+    if (videoId = 5){
+    elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
+    elemVideo.play();
+    }
+    if (videoId = 6){
+    elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
+    elemVideo.play();
+    }
+    if (videoId = 7){
+    elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
+    elemVideo.play();
+    }
+    if (videoId = 8){
+    elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
+    elemVideo.play();
+    }
+    if (videoId = 9){
+    elemVideo.setAttribute('src', 'https://joeydeardorff.github.io/home/images/angelStatue2tweens.mp4');
+    elemVideo.play();
+    }
 
 btn.addEventListener('click', function (e) {
     var nextId = getRandomInt(0, 9);
