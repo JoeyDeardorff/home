@@ -6,7 +6,7 @@
     <title>Video Loop with Random Selection</title>
 </head>
 <body>
-    <video id="videoPlayer" width="100%" height="100%" autoplay muted>
+    <video id="videoPlayer" width="640" height="360" autoplay muted>
         <!-- Original video source -->
         <source id="videoSource" src="original-video.mp4" type="video/mp4">
         Your browser does not support the video tag.
